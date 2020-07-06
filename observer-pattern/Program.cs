@@ -10,7 +10,7 @@ namespace observer_pattern
 
             weatherData.SetMeasurementsChanged(80, 65, 30.4f);
             weatherData.SetMeasurementsChanged(82, 70, 29.2f);
-            weatherData.SetMeasurementsChanged(78, 90, 29.2f);
+            weatherData.SetMeasurementsChanged(78.5f, 90, 29.2f);
 
         }
     }

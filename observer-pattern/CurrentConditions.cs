@@ -1,4 +1,4 @@
-using observer_pattern.interfaces;
+using observer_pattern.Interfaces;
 using System;
 
 namespace observer_pattern
@@ -23,7 +23,7 @@ namespace observer_pattern
         }
 
         public void Display() {
-            Console.WriteLine($"Condições atuais: {this.temperature} F degrees e {this.humidity}% humidade");
+            Console.WriteLine($"Condições atuais: {this.temperature}F graus e {this.humidity}% de humidade");
         }
     }
 }
