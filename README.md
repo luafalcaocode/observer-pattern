@@ -4,7 +4,7 @@ O padrão de projetos Observer cria uma relação de dependência entre um e mui
 
 Fonte: Head First Design Patterns, Cap. 2; Design Patterns, GOF, pág. 281.
 
-Abaixo segue 3 xemplos de possíveis implementações do padrão observer para fins de estudo:
+Abaixo segue 3 exemplos de possíveis implementações do padrão observer para fins de estudo:
 
 1. Um relógio mestre (subject) obtém as horas de todos os países do mundo de acordo com o fuso horário de cada região e altera seu estado com os valores de hora, minutos e segundos atualizados. Ao fazer isso, dois relógios (um analógico e outro digital) tomam conhecimento da mudança de seu estado e obtém a hora, os minutos e segundos em tempo real para, por exemplo, exibir na tela de seu dispositivo ou realizar algum outro processamento. 
 
