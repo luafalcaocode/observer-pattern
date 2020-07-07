@@ -12,3 +12,12 @@ Abaixo segue 3 exemplos de possíveis implementações do padrão observer para 
 
 3. Um dispositivo responsável por obter dados meteorológicos sobre temperatura, humidade e pressão atmosférica (subject) envia dados atualizados para três tipos diferentes de visualizações de um sistema. Sempre que os dados são atualizados as visualizações mudam as informações na tela para refletir o novo estado.
 
+# Rodando o projeto:
+
+## Pré-requisitos: .NET Core SDK versão 3.1 e um editor de código como o Visual Studio Code
+
+- abra o terminal do seu sistema operacional e digite git clone https://github.com/luafalcaocode/observer-pattern.git
+- navegue para a pasta do projeto ***cd observer-pattern
+- execute o projeto com o comando ***dotnet run --project observer-pattern
+- pare a aplicação e analise o código fonte :)
+
