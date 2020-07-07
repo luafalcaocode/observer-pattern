@@ -23,7 +23,7 @@ namespace observer_pattern
         }
 
         public void Display() {
-            Console.WriteLine($"Condições atuais: {this.temperature}F graus e {this.humidity}% de humidade");
+            Console.WriteLine($"CondiÃ§Ãµes atuais: {this.temperature}F graus e {this.humidity}% de humidade");
         }
     }
 }
