@@ -2,7 +2,7 @@
 
 O padrão de projetos Observer cria uma relação de dependência entre um e muitos objetos de modo que quando o estado deste objeto é alterado todos os outros são notificados e podem tomar decisões baseados nisso. 
 
-Fonte: Head First Design Patterns, Cap. 2; Design Patterns, GOF, pág. 281.
+**Fonte:** Head First Design Patterns, Cap. 2; Design Patterns, GOF, pág. 281.
 
 Abaixo segue 3 exemplos de possíveis implementações do padrão observer para fins de estudo:
 
@@ -14,7 +14,7 @@ Abaixo segue 3 exemplos de possíveis implementações do padrão observer para 
 
 # Rodando o projeto:
 
-## Pré-requisitos: .NET Core SDK versão 3.1 e um editor de código como o Visual Studio Code
+### Pré-requisitos: .NET Core SDK versão 3.1 e um editor de código como o Visual Studio Code
 
 - abra o terminal do seu sistema operacional e digite o comando **git clone https://github.com/luafalcaocode/observer-pattern.git**
 - navegue até a pasta do projeto: **cd observer-pattern**
