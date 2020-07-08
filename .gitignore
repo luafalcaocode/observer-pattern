@@ -5,3 +5,6 @@
 /observer-pattern/bin/Debug/netcoreapp3.1
 /.vs/observer-pattern/v16
 /observer-pattern/obj
+.vs/observer-pattern/DesignTimeBuild/.dtbcache.v2
+observer-pattern/.vscode/launch.json
+observer-pattern/.vscode/tasks.json

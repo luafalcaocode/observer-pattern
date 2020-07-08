@@ -1,17 +1,19 @@
-﻿
+﻿using observer_pattern.Abstractions;
+using System;
+
 namespace observer_pattern
 {
     class Program
     {
         static void Main(string[] args)
         {
-            WeatherData weatherData = new WeatherData();
-            CurrentConditions currentDisplay = new CurrentConditions(weatherData);
+            ClockTimer timer = new ClockTimer();
+            DigitalClock digitalClock = new DigitalClock(timer);
 
-            weatherData.SetMeasurementsChanged(80, 65, 30.4f);
-            weatherData.SetMeasurementsChanged(82, 70, 29.2f);
-            weatherData.SetMeasurementsChanged(78.5f, 90, 29.2f);
-
+            for (var times = 0; times < 9; times++)
+            {
+                timer.Tick();
+            }
         }
     }
 }
