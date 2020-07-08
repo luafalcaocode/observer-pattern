@@ -1,10 +1,10 @@
 using observer_pattern.Abstractions;
+using observer_pattern.Interfaces;
 using System;
-using System.Threading;
 
 namespace observer_pattern
 {
-    public class DigitalClock : Observer
+    public class DigitalClock : Observer, IDraw
     {
         private Subject _clockTimer;
 
@@ -20,8 +20,7 @@ namespace observer_pattern
         }
 
         public void Draw(int hour, int minutes, int seconds) {
-            Console.WriteLine($"Hora atual: {hour.ToString().PadLeft(2, '0')}:{minutes.ToString().PadLeft(2, '0')}:{seconds.ToString().PadLeft(2, '0')}");
-            Thread.Sleep(2000);
+            Console.WriteLine($"Hora atual pelo relógio digital: {hour.ToString().PadLeft(2, '0')}:{minutes.ToString().PadLeft(2, '0')}:{seconds.ToString().PadLeft(2, '0')}");
         }
     }
 }

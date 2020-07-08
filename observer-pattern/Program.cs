@@ -1,5 +1,6 @@
 ﻿using observer_pattern.Abstractions;
 using System;
+using System.Threading;
 
 namespace observer_pattern
 {
@@ -9,10 +10,12 @@ namespace observer_pattern
         {
             ClockTimer timer = new ClockTimer();
             DigitalClock digitalClock = new DigitalClock(timer);
+            AnalogClock analogClock = new AnalogClock(timer);
 
-            for (var times = 0; times < 9; times++)
+            for (var times = 0; times < 3; times++)
             {
                 timer.Tick();
+                Thread.Sleep(2000);
             }
         }
     }
